@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+body{
+    background-image: url('./ICON/praia\ da\ Barra.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caixa-maior {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.caixa-media {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    padding: 10px;
+    background-color: rgba(17, 17, 17, 0.7);
+    color: #fff;
+    font-size: 20px;
+    width: calc(100% - 120px);
+}
+
+.botao-lupa {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: rgba(17, 17, 17, 0.7);
+    color: #fff;
+    font-size: 16px;
+    float: right;    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.icone-lupa {
+    width: 20px;
+}
+
+.icone-microfone {
+    width: 20px;
+}
+
+.microfone {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: rgba(17, 17, 17, 0.7);
+    color: #fff;
+    font-size: 16px;
+    float: right;    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.botao-lupa:hover, .microfone:hover {
+    background-color: rgba(148, 148, 148, 0.9);
+    transform: scale(1.05);
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.cidade {
+    font-size: 24px;
+    color: #fff;
+}
+
+.temperatura {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.umidade {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.botao-ia {
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 76, 227, 0.7);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.botao-ia:hover {
+    background-color: rgba(0, 76, 227, 1);
+    transform: scale(1.05);
+}
+
+.resposta-ia{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
