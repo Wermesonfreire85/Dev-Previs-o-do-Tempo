@@ -1,3 +1,5 @@
+
+let caixa = document.querySelector(".caixa-media");
 async function cliquenobotao() {
     let cidade = document.querySelector(".input-cidade").value;
 
